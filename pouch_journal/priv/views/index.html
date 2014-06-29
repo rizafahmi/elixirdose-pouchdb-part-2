@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Pouch Journal</title>
+  <script src="/static/js/pouchdb-2.2.0.min.js"></script>
+  <script src="/static/js/app.js"></script>
+</head>
+<body>
+  <h1>Hello PouchDB!</h1>
+  <input type="text" name="title" placeholder="Insert your journal's title" autofocus id="title">
+  <input type="text" name="text" id="text" placeholder="Start your journal here...">
+  <button type="submit" onclick="addJournal()">Save</button>
+
+
+  <ul id="journal-list">
+
+  </ul>
+</body>
+</html>
